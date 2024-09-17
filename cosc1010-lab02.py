@@ -4,8 +4,8 @@
 # Lab 02 
 # Lab Section: 
 # Sources, people worked with, help given to: 
-# your
-# comments
+# https://www.online-python.com/ (online IDE)
+# Jay Trujio, Jhett Carr
 # here
 
 mascot = "cowboy joe"
@@ -25,17 +25,21 @@ print(mascot.title())
 # Complete the following f-string print message 
     # You will need to create your own variables and insert them  
     # the final message should read `The University of Wyoming was founded in 1886`
+school="university of wyoming"
+year=1886
 
-print(f"The {your_variable_here} was founded in {your_variable_here}")
+print(f"The {school.title()} was founded in {str(year)}")
 
 # Now let's do some math with variables 
     # Create two variables x and y and assign them the values 5 and 10 respectively 
     # Complete the following print statements using your variables
     #All math must be done within the braces in the f-strings
-print(f"x + y = {your_variable_here}")
-print(f"x - y = {your_variable_here}")
-print(f"x * y = {your_variable_here}")
-print(f"x / y = {your_variable_here}")
+x=int(5)
+y=int(10)
+print(f"x + y = {x+y}")
+print(f"x - y = {x-y}")
+print(f"x * y = {x*y}")
+print(f"x / y = {x/y}")
 
 # String concatenation 
     # Finally we will take a look at string concatenation
@@ -43,6 +47,11 @@ print(f"x / y = {your_variable_here}")
     # It is done using the + operator
     # Create three variables:
         # first_name, which is your first name 
+first_name=input("What is your first name: ").strip()
+
         # last_name, which is your last name
+last_name=input("What is your last name: ").strip()
         # space, which is a space character 
+space= " "
     # Use string concatenation to print out your full name 
+print(first_name.title()+space+last_name.title())
