@@ -2,7 +2,7 @@
 # UWYO COSC 1010
 # 9/18/24
 # Lab 02 
-# Lab Section: 
+# Lab Section: 15
 # Sources, people worked with, help given to: 
 # https://www.online-python.com/ (online IDE)
 # Jay Trujio, Jhett Carr
