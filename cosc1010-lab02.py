@@ -6,7 +6,6 @@
 # Sources, people worked with, help given to: 
 # https://www.online-python.com/ (online IDE)
 # Jay Trujio, Jhett Carr
-# here
 
 mascot = "cowboy joe"
 
